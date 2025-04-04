@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
-import Navbar from '../../components/Navbar';
-import Buscador from '../../components/Buscador';
-import '../../components/App.css'
+import Navbar from '../components/Navbar';
+import Buscador from '../components/Buscador';
+import '../components/App.css'
 
 function App() {
   const [pokemones, setPokemones] = useState([]);
