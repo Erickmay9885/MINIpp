@@ -1,0 +1,29 @@
+.App {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    justify-items: center;
+  }
+  
+  .cuadro {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: transparent;
+    width: 150px;
+    cursor: pointer;
+  }
+  
+  .cuadro img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .no-encontrado {
+    text-align: center;
+    font-size: 18px;
+    color: #ff4500;
+  }
+  

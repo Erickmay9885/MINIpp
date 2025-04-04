@@ -1,0 +1,37 @@
+.titulo {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 24px;
+  color: #ff6347;
+}
+
+.container-buscar {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-bottom: 20px;
+}
+
+.input-buscar {
+  padding: 10px;
+  width: 300px;
+  height: 50px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.btn-buscar {
+  background-color: #A192FC;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  height: 95px;
+  width: 70px;
+}
+
+.btn-buscar:hover {
+  background-color: #ff4500;
+}
